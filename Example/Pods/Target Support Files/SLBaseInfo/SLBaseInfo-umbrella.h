@@ -16,6 +16,7 @@
 #import "UIColor+Color.h"
 #import "UIFont+Size.h"
 #import "UIImage+Additions.h"
+#import "Constants.h"
 
 FOUNDATION_EXPORT double SLBaseInfoVersionNumber;
 FOUNDATION_EXPORT const unsigned char SLBaseInfoVersionString[];

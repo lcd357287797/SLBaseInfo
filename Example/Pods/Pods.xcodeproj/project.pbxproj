@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2076E8F961581435C429EB2BC5FDC23C /* UIColor+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 888809D6FFDDAAB1CBA925A7A9DD9968 /* UIColor+Color.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2261C5B416F7B462D3A24787115AC0CF /* NSTimer+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A2E16845BD82BDC3D576A7234F8A299 /* NSTimer+Category.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CEA769956E9FE8BCD56D20AA423C5C6 /* UIFont+Size.h in Headers */ = {isa = PBXBuildFile; fileRef = 0424F8EC0365C89D301DC76C42B5286C /* UIFont+Size.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1254F70D84A69B3D1CF683503409A179 /* SLBaseInfo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE3B6FC956DBE30D4D5F616432BB0AEC /* SLBaseInfo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17D687EBDF3A46CD7169B97EF9B3361F /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B8ECC8EA3E64177B14F0DA8BAAE685 /* UIImage+Additions.m */; };
+		23BA1713FC734E9200EA0E4ED6516EFD /* NSTimer+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6A71E5E2C8C596C91122D37C180D08 /* NSTimer+Category.m */; };
+		321E14A36C9ACA0EE9F97400FE6167BD /* SLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2580F53B0D0FEAE3C0834661004E9199 /* SLNavigationController.m */; };
 		3FCE28EB4018C01DAFE50BDCB2FD5B58 /* Pods-SLBaseInfo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 910FF07830D7FFCB73FBAE4C7D7432EA /* Pods-SLBaseInfo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5CD02EADE17150F0327A6204CE07FF48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		885774D5D535BA79A0F223116C087116 /* NSTimer+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 4542E516197A8A00CBC595F995A98D90 /* NSTimer+Category.m */; };
-		94195B516DAD93E06ADEF566459599BC /* UIColor+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7F0286E9F6E78662C9E8E2A0514C45 /* UIColor+Color.m */; };
-		9B5E0943751F5D32228718262F78F9AD /* SLBaseInfo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF667674FA719078CCD8D3B443A65AA /* SLBaseInfo-dummy.m */; };
-		9FDC92341EDC0ABBCCBEFEE68F06515D /* SLBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A1BE3FE8B44F808BC79C70A52229570F /* SLBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A35F5A52AC588B3B80975BE19085D35E /* SLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D04A2D76E801EFF994DF1E0E54B0B8CE /* SLNavigationController.m */; };
+		7C9F35A72C4B04341F503B078924B60E /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC5051E0821B6FBDF02A8134E9716CB /* Constants.m */; };
+		7E80517D02CCBFBF24BA0DE52C23C2D6 /* UIColor+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BD299F5195D1EB96BD381D1659E96E /* UIColor+Color.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		909268D8597AA5C2AF705370A031CA90 /* SLBaseInfo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E67A0700D6C78351FF28B1F6F739ECE /* SLBaseInfo-dummy.m */; };
+		99E37A8BE55340C4CE404A755E8ABEB7 /* SLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E97BC4E34BB09657967B0EBBDACD04E /* SLBaseViewController.m */; };
 		A5C762245D7C13711CF1225705EBDBF8 /* Pods-SLBaseInfo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE862EC612181E9637BB70DEF783F105 /* Pods-SLBaseInfo_Tests-dummy.m */; };
+		ABBD95E3CC9AA2ABEC1E4BB98D5CBE4A /* SLBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 602EBC1E9696E17C3869FD411627134E /* SLBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8CEDD50402B3222D84F07B622048E4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		C209E2F18DC721F2C1FC4D4E06FCCB5A /* UIFont+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9BE5FE359F66E4C485C8DF58F43822 /* UIFont+Size.m */; };
-		C3F66FC11637F8987A411E24429B3E50 /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 227A8037E8E25F4F534C6F7D91B2A27F /* UIImage+Additions.m */; };
-		C76A116416AD8DE4782B378E43307661 /* SLNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = AB0491654A88DCC0349299A5C5C9AE27 /* SLNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CDE193B0065CAF2DE85E84C39EA7E8D6 /* SLBaseInfo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0C4622970BB9F74A86BCE4389CEB28C /* SLBaseInfo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D309EAF0DC7AD9C939A0099D2167629C /* SLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C9EDC58E6F7BC986C2E7083F1BAC14 /* SLBaseViewController.m */; };
+		BEC6D50CD866E2DEEE56C0F980581C70 /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 8527B9908C83587AB2BCE77390A56B75 /* Constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6D1F64A95ADB5DB9E11E261E419B8FD /* UIFont+Size.h in Headers */ = {isa = PBXBuildFile; fileRef = C262AEE3226F8C3FA1E48C0B817B4CF6 /* UIFont+Size.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C738E53F098828CC8281F14C71F0488E /* NSTimer+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E2E780845E28B48B963A7145DA8137E /* NSTimer+Category.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8170831D180E8040F286914548804F1 /* SLNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 86945372D9DF32D7EA54A07F1066078C /* SLNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE28B76B91D6BEC0CF1F45A9AF2E24BE /* UIColor+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A3D1EE59E65A4EF19EF0AE1E15A6F7 /* UIColor+Color.m */; };
 		D7B05059D1CF7CA97B94868F3BAD6888 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		F7B55B0F77FFCBAE1A6BA382A8F6B1AC /* UIImage+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = E398029E808F6A25F5114FED9B7AF685 /* UIImage+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9133684A6D22EE5CA8215B174302EB9 /* UIImage+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D3871CE03C391103D2C9C6D67CCAABF /* UIImage+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC5BB88624418E69849534E4342485DB /* UIFont+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 0805603F4B7328998AC4B25C483A66DA /* UIFont+Size.m */; };
 		F7C3DEB58ADC53531E0AD4DFE9BA3214 /* Pods-SLBaseInfo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEEDED10675724B5C19236A27C394E8 /* Pods-SLBaseInfo_Example-dummy.m */; };
 		FB3E36505560A7C33BBCC3E9E82EE831 /* Pods-SLBaseInfo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CD31DCD2C956E9CF90A2C1B9D78D82C /* Pods-SLBaseInfo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -48,52 +50,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00A3D1EE59E65A4EF19EF0AE1E15A6F7 /* UIColor+Color.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Color.m"; sourceTree = "<group>"; };
 		04143B17EA8DB9132F919AED723EE3CB /* Pods-SLBaseInfo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SLBaseInfo_Tests.modulemap"; sourceTree = "<group>"; };
-		0424F8EC0365C89D301DC76C42B5286C /* UIFont+Size.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIFont+Size.h"; sourceTree = "<group>"; };
+		06207CD564D9D05C336DCEAE74AE58C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0805603F4B7328998AC4B25C483A66DA /* UIFont+Size.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Size.m"; sourceTree = "<group>"; };
 		099B142CE22360E9181893F6EDD2D15A /* Pods-SLBaseInfo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLBaseInfo_Example-frameworks.sh"; sourceTree = "<group>"; };
 		127AA339EE8A62B4EFE3F209BD6072B0 /* Pods-SLBaseInfo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SLBaseInfo_Example.modulemap"; sourceTree = "<group>"; };
-		12A82C6538424DCC6108D05971D1F39A /* SLBaseInfo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SLBaseInfo.xcconfig; sourceTree = "<group>"; };
 		1633C50ACC5FD8307E05D55B3A2CE442 /* Pods_SLBaseInfo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SLBaseInfo_Tests.framework; path = "Pods-SLBaseInfo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		227A8037E8E25F4F534C6F7D91B2A27F /* UIImage+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
+		1C082E7EEE0038731FD56E9A6459BEDB /* SLBaseInfo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SLBaseInfo.modulemap; sourceTree = "<group>"; };
+		1E97BC4E34BB09657967B0EBBDACD04E /* SLBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SLBaseViewController.m; sourceTree = "<group>"; };
 		23AC9A7E4B56D1E3FA6F05C9D4361439 /* Pods-SLBaseInfo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLBaseInfo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2580F53B0D0FEAE3C0834661004E9199 /* SLNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SLNavigationController.m; sourceTree = "<group>"; };
+		36B8ECC8EA3E64177B14F0DA8BAAE685 /* UIImage+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
 		3777076948A479939B8356CE8584AF9C /* Pods-SLBaseInfo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLBaseInfo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		38DE5AAA7386726488D1B9BE4352DE63 /* Pods-SLBaseInfo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLBaseInfo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		3A2E16845BD82BDC3D576A7234F8A299 /* NSTimer+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Category.h"; sourceTree = "<group>"; };
-		3B7C8C4AFBBFD3E9C6F49C0C6CEE050A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CD31DCD2C956E9CF90A2C1B9D78D82C /* Pods-SLBaseInfo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLBaseInfo_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3D85617CCEA67487965FFCF3B0410217 /* SLBaseInfo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SLBaseInfo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3E2E780845E28B48B963A7145DA8137E /* NSTimer+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Category.h"; sourceTree = "<group>"; };
 		4065BCCF973FA438D23FC67400654C40 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4542E516197A8A00CBC595F995A98D90 /* NSTimer+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Category.m"; sourceTree = "<group>"; };
 		4BEEDED10675724B5C19236A27C394E8 /* Pods-SLBaseInfo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLBaseInfo_Example-dummy.m"; sourceTree = "<group>"; };
 		4C20A7692EB03CA7F08F5E856192E838 /* Pods-SLBaseInfo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLBaseInfo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4E8238D8E6ECE9625760A0BCA274D17B /* SLBaseInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SLBaseInfo.framework; path = SLBaseInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		50C9EDC58E6F7BC986C2E7083F1BAC14 /* SLBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SLBaseViewController.m; sourceTree = "<group>"; };
+		4E8A8A049C387A019B63E84AF09B9A2A /* SLBaseInfo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SLBaseInfo-prefix.pch"; sourceTree = "<group>"; };
+		4FC5051E0821B6FBDF02A8134E9716CB /* Constants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		52BD2FDAA073EF549666BF583516519B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5B9BE5FE359F66E4C485C8DF58F43822 /* UIFont+Size.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Size.m"; sourceTree = "<group>"; };
 		5EAE5F93E8BD499A5E39853F7E24F136 /* Pods-SLBaseInfo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLBaseInfo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		602EBC1E9696E17C3869FD411627134E /* SLBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SLBaseViewController.h; sourceTree = "<group>"; };
 		6937376696CE4C364579A87B1D9A796D /* Pods_SLBaseInfo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SLBaseInfo_Example.framework; path = "Pods-SLBaseInfo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7EF667674FA719078CCD8D3B443A65AA /* SLBaseInfo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SLBaseInfo-dummy.m"; sourceTree = "<group>"; };
-		7F7F0286E9F6E78662C9E8E2A0514C45 /* UIColor+Color.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Color.m"; sourceTree = "<group>"; };
-		888809D6FFDDAAB1CBA925A7A9DD9968 /* UIColor+Color.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+Color.h"; sourceTree = "<group>"; };
+		6E67A0700D6C78351FF28B1F6F739ECE /* SLBaseInfo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SLBaseInfo-dummy.m"; sourceTree = "<group>"; };
+		7B0E2CCA5C79261267DF181191CB2CE4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8527B9908C83587AB2BCE77390A56B75 /* Constants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		86945372D9DF32D7EA54A07F1066078C /* SLNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SLNavigationController.h; sourceTree = "<group>"; };
+		8D3871CE03C391103D2C9C6D67CCAABF /* UIImage+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
 		910FF07830D7FFCB73FBAE4C7D7432EA /* Pods-SLBaseInfo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLBaseInfo_Example-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94B673B44EE795AD42165D5077B3383F /* Pods-SLBaseInfo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLBaseInfo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A1BE3FE8B44F808BC79C70A52229570F /* SLBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SLBaseViewController.h; sourceTree = "<group>"; };
 		A209DACCFE7A19129C87DD4E9C92E1EF /* Pods-SLBaseInfo_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLBaseInfo_Example-resources.sh"; sourceTree = "<group>"; };
-		A7250653F44BFA9CD82F67D0C8D459A6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		AB0491654A88DCC0349299A5C5C9AE27 /* SLNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SLNavigationController.h; sourceTree = "<group>"; };
-		AE17D70FC61B55C141493756329A62F3 /* SLBaseInfo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SLBaseInfo.modulemap; sourceTree = "<group>"; };
-		AEA88F548B9CF93E9B9C800858791BAD /* SLBaseInfo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SLBaseInfo-prefix.pch"; sourceTree = "<group>"; };
-		B0C4622970BB9F74A86BCE4389CEB28C /* SLBaseInfo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SLBaseInfo-umbrella.h"; sourceTree = "<group>"; };
+		A6BD299F5195D1EB96BD381D1659E96E /* UIColor+Color.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+Color.h"; sourceTree = "<group>"; };
 		B399C1A14264979CC43608A82D2B8696 /* Pods-SLBaseInfo_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLBaseInfo_Tests-resources.sh"; sourceTree = "<group>"; };
 		BE862EC612181E9637BB70DEF783F105 /* Pods-SLBaseInfo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLBaseInfo_Tests-dummy.m"; sourceTree = "<group>"; };
+		C262AEE3226F8C3FA1E48C0B817B4CF6 /* UIFont+Size.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIFont+Size.h"; sourceTree = "<group>"; };
 		CBF135C91AC0D157AE3EB85CF5897587 /* Pods-SLBaseInfo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLBaseInfo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D04A2D76E801EFF994DF1E0E54B0B8CE /* SLNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SLNavigationController.m; sourceTree = "<group>"; };
-		D5903CA52DE7EF68E2C177D4173D5C5D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E398029E808F6A25F5114FED9B7AF685 /* UIImage+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
+		DB4F4697156F62459FD53D2C15C5E443 /* SLBaseInfo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SLBaseInfo.xcconfig; sourceTree = "<group>"; };
 		ECA739D2F6C8686E8A9C1EA72698A540 /* Pods-SLBaseInfo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLBaseInfo_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		F032FCB716D1279FE488B496BC5D7BB4 /* SLBaseInfo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SLBaseInfo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EE3B6FC956DBE30D4D5F616432BB0AEC /* SLBaseInfo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SLBaseInfo-umbrella.h"; sourceTree = "<group>"; };
+		F1A6C27DB5C814C65564A4B116405767 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		F9FA6C3F1BB9AEBC674426ECBC1CE382 /* Pods-SLBaseInfo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLBaseInfo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FD6A71E5E2C8C596C91122D37C180D08 /* NSTimer+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Category.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,38 +128,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06E4443DAA30DDF8C734C540BF101496 /* Development Pods */ = {
+		014BCBA340F1E952CD8AFBD174C2B2FC /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				410C74C86C7BE647B62B19B2EA0A391E /* SLBaseInfo */,
+				3E2E780845E28B48B963A7145DA8137E /* NSTimer+Category.h */,
+				FD6A71E5E2C8C596C91122D37C180D08 /* NSTimer+Category.m */,
+				A6BD299F5195D1EB96BD381D1659E96E /* UIColor+Color.h */,
+				00A3D1EE59E65A4EF19EF0AE1E15A6F7 /* UIColor+Color.m */,
+				C262AEE3226F8C3FA1E48C0B817B4CF6 /* UIFont+Size.h */,
+				0805603F4B7328998AC4B25C483A66DA /* UIFont+Size.m */,
+				8D3871CE03C391103D2C9C6D67CCAABF /* UIImage+Additions.h */,
+				36B8ECC8EA3E64177B14F0DA8BAAE685 /* UIImage+Additions.m */,
 			);
-			name = "Development Pods";
+			name = Category;
+			path = SLBaseInfo/Classes/Category;
 			sourceTree = "<group>";
 		};
-		35DBB653FD4C0EF75D270BD3EDD42FD6 /* Support Files */ = {
+		35383629F2CF4C78FB56FAC0E6E24386 /* SLBaseInfo */ = {
 			isa = PBXGroup;
 			children = (
-				3B7C8C4AFBBFD3E9C6F49C0C6CEE050A /* Info.plist */,
-				AE17D70FC61B55C141493756329A62F3 /* SLBaseInfo.modulemap */,
-				12A82C6538424DCC6108D05971D1F39A /* SLBaseInfo.xcconfig */,
-				7EF667674FA719078CCD8D3B443A65AA /* SLBaseInfo-dummy.m */,
-				AEA88F548B9CF93E9B9C800858791BAD /* SLBaseInfo-prefix.pch */,
-				B0C4622970BB9F74A86BCE4389CEB28C /* SLBaseInfo-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SLBaseInfo";
-			sourceTree = "<group>";
-		};
-		410C74C86C7BE647B62B19B2EA0A391E /* SLBaseInfo */ = {
-			isa = PBXGroup;
-			children = (
-				DFA046A55DB05256185522864B6AF38E /* BaseVC */,
-				9FD598DCD9FB1D6FEDB6BD8B735AD4CA /* Category */,
-				BD53EDF0787D04A9CFB0062FB4618B1F /* Pod */,
-				35DBB653FD4C0EF75D270BD3EDD42FD6 /* Support Files */,
+				4F05051BAEC3540B4AF30119EC5C4B7D /* BaseVC */,
+				014BCBA340F1E952CD8AFBD174C2B2FC /* Category */,
+				8DAB9BCD5706AB15791EFE09B2F18C95 /* Constant */,
+				FACBB4259C23F585CF82D49253D235D3 /* Pod */,
+				CFB79E85749B224FE3C87E92CBA9A657 /* Support Files */,
 			);
 			name = SLBaseInfo;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		4F05051BAEC3540B4AF30119EC5C4B7D /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				602EBC1E9696E17C3869FD411627134E /* SLBaseViewController.h */,
+				1E97BC4E34BB09657967B0EBBDACD04E /* SLBaseViewController.m */,
+				86945372D9DF32D7EA54A07F1066078C /* SLNavigationController.h */,
+				2580F53B0D0FEAE3C0834661004E9199 /* SLNavigationController.m */,
+			);
+			name = BaseVC;
+			path = SLBaseInfo/Classes/BaseVC;
 			sourceTree = "<group>";
 		};
 		4FC53E201E830954D9C9C86271C651AF /* Targets Support Files */ = {
@@ -179,27 +190,21 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				06E4443DAA30DDF8C734C540BF101496 /* Development Pods */,
+				E2F50F54526F61148CFCF6FAE6A22193 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				C2BF581801D9DBE7C3EF8F2274C19C5D /* Products */,
 				4FC53E201E830954D9C9C86271C651AF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9FD598DCD9FB1D6FEDB6BD8B735AD4CA /* Category */ = {
+		8DAB9BCD5706AB15791EFE09B2F18C95 /* Constant */ = {
 			isa = PBXGroup;
 			children = (
-				3A2E16845BD82BDC3D576A7234F8A299 /* NSTimer+Category.h */,
-				4542E516197A8A00CBC595F995A98D90 /* NSTimer+Category.m */,
-				888809D6FFDDAAB1CBA925A7A9DD9968 /* UIColor+Color.h */,
-				7F7F0286E9F6E78662C9E8E2A0514C45 /* UIColor+Color.m */,
-				0424F8EC0365C89D301DC76C42B5286C /* UIFont+Size.h */,
-				5B9BE5FE359F66E4C485C8DF58F43822 /* UIFont+Size.m */,
-				E398029E808F6A25F5114FED9B7AF685 /* UIImage+Additions.h */,
-				227A8037E8E25F4F534C6F7D91B2A27F /* UIImage+Additions.m */,
+				8527B9908C83587AB2BCE77390A56B75 /* Constants.h */,
+				4FC5051E0821B6FBDF02A8134E9716CB /* Constants.m */,
 			);
-			name = Category;
-			path = SLBaseInfo/Classes/Category;
+			name = Constant;
+			path = SLBaseInfo/Classes/Constant;
 			sourceTree = "<group>";
 		};
 		A290A77AB9FCDEF8AC29CA9216824C44 /* Pods-SLBaseInfo_Tests */ = {
@@ -228,16 +233,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BD53EDF0787D04A9CFB0062FB4618B1F /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A7250653F44BFA9CD82F67D0C8D459A6 /* LICENSE */,
-				D5903CA52DE7EF68E2C177D4173D5C5D /* README.md */,
-				F032FCB716D1279FE488B496BC5D7BB4 /* SLBaseInfo.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		C2BF581801D9DBE7C3EF8F2274C19C5D /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -246,6 +241,20 @@
 				4E8238D8E6ECE9625760A0BCA274D17B /* SLBaseInfo.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CFB79E85749B224FE3C87E92CBA9A657 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06207CD564D9D05C336DCEAE74AE58C6 /* Info.plist */,
+				1C082E7EEE0038731FD56E9A6459BEDB /* SLBaseInfo.modulemap */,
+				DB4F4697156F62459FD53D2C15C5E443 /* SLBaseInfo.xcconfig */,
+				6E67A0700D6C78351FF28B1F6F739ECE /* SLBaseInfo-dummy.m */,
+				4E8A8A049C387A019B63E84AF09B9A2A /* SLBaseInfo-prefix.pch */,
+				EE3B6FC956DBE30D4D5F616432BB0AEC /* SLBaseInfo-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SLBaseInfo";
 			sourceTree = "<group>";
 		};
 		DA519CD4C0210761B013F5F4E701CEA6 /* Pods-SLBaseInfo_Example */ = {
@@ -266,16 +275,22 @@
 			path = "Target Support Files/Pods-SLBaseInfo_Example";
 			sourceTree = "<group>";
 		};
-		DFA046A55DB05256185522864B6AF38E /* BaseVC */ = {
+		E2F50F54526F61148CFCF6FAE6A22193 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A1BE3FE8B44F808BC79C70A52229570F /* SLBaseViewController.h */,
-				50C9EDC58E6F7BC986C2E7083F1BAC14 /* SLBaseViewController.m */,
-				AB0491654A88DCC0349299A5C5C9AE27 /* SLNavigationController.h */,
-				D04A2D76E801EFF994DF1E0E54B0B8CE /* SLNavigationController.m */,
+				35383629F2CF4C78FB56FAC0E6E24386 /* SLBaseInfo */,
 			);
-			name = BaseVC;
-			path = SLBaseInfo/Classes/BaseVC;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FACBB4259C23F585CF82D49253D235D3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F1A6C27DB5C814C65564A4B116405767 /* LICENSE */,
+				7B0E2CCA5C79261267DF181191CB2CE4 /* README.md */,
+				3D85617CCEA67487965FFCF3B0410217 /* SLBaseInfo.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,17 +312,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3A37480DD3DEFDED0EEBE4D09A0E716 /* Headers */ = {
+		CA6C41924ABFD15E8A4976A346CD59CA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2261C5B416F7B462D3A24787115AC0CF /* NSTimer+Category.h in Headers */,
-				CDE193B0065CAF2DE85E84C39EA7E8D6 /* SLBaseInfo-umbrella.h in Headers */,
-				9FDC92341EDC0ABBCCBEFEE68F06515D /* SLBaseViewController.h in Headers */,
-				C76A116416AD8DE4782B378E43307661 /* SLNavigationController.h in Headers */,
-				2076E8F961581435C429EB2BC5FDC23C /* UIColor+Color.h in Headers */,
-				2CEA769956E9FE8BCD56D20AA423C5C6 /* UIFont+Size.h in Headers */,
-				F7B55B0F77FFCBAE1A6BA382A8F6B1AC /* UIImage+Additions.h in Headers */,
+				BEC6D50CD866E2DEEE56C0F980581C70 /* Constants.h in Headers */,
+				C738E53F098828CC8281F14C71F0488E /* NSTimer+Category.h in Headers */,
+				1254F70D84A69B3D1CF683503409A179 /* SLBaseInfo-umbrella.h in Headers */,
+				ABBD95E3CC9AA2ABEC1E4BB98D5CBE4A /* SLBaseViewController.h in Headers */,
+				C8170831D180E8040F286914548804F1 /* SLNavigationController.h in Headers */,
+				7E80517D02CCBFBF24BA0DE52C23C2D6 /* UIColor+Color.h in Headers */,
+				C6D1F64A95ADB5DB9E11E261E419B8FD /* UIFont+Size.h in Headers */,
+				D9133684A6D22EE5CA8215B174302EB9 /* UIImage+Additions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,9 +352,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E72CA15F550E4FB1BEF9A4E35C05549E /* Build configuration list for PBXNativeTarget "SLBaseInfo" */;
 			buildPhases = (
-				22B24F7728F074A25E45FD811B4B013A /* Sources */,
+				27F0AFDBF89A1B7C6A31B78413E20E18 /* Sources */,
 				E50AB0B4E7A99325B7E9DDE73BEF8395 /* Frameworks */,
-				D3A37480DD3DEFDED0EEBE4D09A0E716 /* Headers */,
+				CA6C41924ABFD15E8A4976A346CD59CA /* Headers */,
 			);
 			buildRules = (
 			);
@@ -404,17 +420,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22B24F7728F074A25E45FD811B4B013A /* Sources */ = {
+		27F0AFDBF89A1B7C6A31B78413E20E18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				885774D5D535BA79A0F223116C087116 /* NSTimer+Category.m in Sources */,
-				9B5E0943751F5D32228718262F78F9AD /* SLBaseInfo-dummy.m in Sources */,
-				D309EAF0DC7AD9C939A0099D2167629C /* SLBaseViewController.m in Sources */,
-				A35F5A52AC588B3B80975BE19085D35E /* SLNavigationController.m in Sources */,
-				94195B516DAD93E06ADEF566459599BC /* UIColor+Color.m in Sources */,
-				C209E2F18DC721F2C1FC4D4E06FCCB5A /* UIFont+Size.m in Sources */,
-				C3F66FC11637F8987A411E24429B3E50 /* UIImage+Additions.m in Sources */,
+				7C9F35A72C4B04341F503B078924B60E /* Constants.m in Sources */,
+				23BA1713FC734E9200EA0E4ED6516EFD /* NSTimer+Category.m in Sources */,
+				909268D8597AA5C2AF705370A031CA90 /* SLBaseInfo-dummy.m in Sources */,
+				99E37A8BE55340C4CE404A755E8ABEB7 /* SLBaseViewController.m in Sources */,
+				321E14A36C9ACA0EE9F97400FE6167BD /* SLNavigationController.m in Sources */,
+				CE28B76B91D6BEC0CF1F45A9AF2E24BE /* UIColor+Color.m in Sources */,
+				EC5BB88624418E69849534E4342485DB /* UIFont+Size.m in Sources */,
+				17D687EBDF3A46CD7169B97EF9B3361F /* UIImage+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,7 +559,7 @@
 		};
 		96D4E1FB18C605FA69DF56C71072222F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12A82C6538424DCC6108D05971D1F39A /* SLBaseInfo.xcconfig */;
+			baseConfigurationReference = DB4F4697156F62459FD53D2C15C5E443 /* SLBaseInfo.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -665,7 +682,7 @@
 		};
 		E239748C8BC614EFCE2643C2AD1524E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12A82C6538424DCC6108D05971D1F39A /* SLBaseInfo.xcconfig */;
+			baseConfigurationReference = DB4F4697156F62459FD53D2C15C5E443 /* SLBaseInfo.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
