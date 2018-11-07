@@ -12,7 +12,10 @@
 
 #import "SLBaseViewController.h"
 #import "SLNavigationController.h"
+#import "NSTimer+Category.h"
 #import "UIColor+Color.h"
+#import "UIFont+Size.h"
+#import "UIImage+Additions.h"
 
 FOUNDATION_EXPORT double SLBaseInfoVersionNumber;
 FOUNDATION_EXPORT const unsigned char SLBaseInfoVersionString[];
