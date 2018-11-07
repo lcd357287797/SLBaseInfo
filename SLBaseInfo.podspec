@@ -15,11 +15,11 @@ Pod::Spec.new do |s|
 工程的基础信息1
                        DESC
 
-  s.homepage         = 'https://github.com/陆承东/SLBaseInfo'
+  s.homepage         = 'https://github.com/lcd357287797/SLBaseInfo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '陆承东' => '357287797@qq.com' }
-  s.source           = { :git => 'https://github.com/陆承东/SLBaseInfo.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/lcd357287797/SLBaseInfo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
