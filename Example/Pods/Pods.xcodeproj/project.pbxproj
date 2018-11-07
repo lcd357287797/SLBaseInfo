@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		168AA297EAFBE9C6FFFCE1B9DB921FB2 /* SLBaseInfo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B77D17CE02CEA20C120681E07AA35FF4 /* SLBaseInfo-dummy.m */; };
+		0DBB00B7085DB3CDDCD3D540150E8472 /* SLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F3BB45CE42256800DB3293CC11A134 /* SLNavigationController.m */; };
+		38A69A78740AF45AE92F13F861810C41 /* SLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9134B4D37370669F9B580322D7EB82 /* SLBaseViewController.m */; };
+		3B4F59EC87828922E8432ECBF5005659 /* SLBaseInfo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D85DC0CE8E1E6D3F972BB4F4EE6855 /* SLBaseInfo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3FCE28EB4018C01DAFE50BDCB2FD5B58 /* Pods-SLBaseInfo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 910FF07830D7FFCB73FBAE4C7D7432EA /* Pods-SLBaseInfo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BEB92E1EB6ABB9370CCDDB40DBEC5D8 /* UIColor+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = B13BBFC36FE89142EF1B30CCCC6FD389 /* UIColor+Color.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4384A2C8EF227537AC75117FE16055B3 /* SLBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CBBB39C708E39312C789BC083F987DE /* SLBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5CD02EADE17150F0327A6204CE07FF48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		6EC9916A77292E6380D2809600516B0D /* UIColor+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = A47DD6443420E8D88E69AA4261ACC364 /* UIColor+Color.m */; };
+		8FBABA337D3011B0EC1D6917EB3C27D2 /* UIColor+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = F14879EE191697908EF29C58D61DF78A /* UIColor+Color.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5C762245D7C13711CF1225705EBDBF8 /* Pods-SLBaseInfo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE862EC612181E9637BB70DEF783F105 /* Pods-SLBaseInfo_Tests-dummy.m */; };
 		B8CEDD50402B3222D84F07B622048E4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		C70E5B493784C5CF9A6918399D517F8D /* UIColor+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C2954DE87707BE5CE5133CD5B8B76D /* UIColor+Color.m */; };
-		CEBE761D71166482F2D9CD0E756B398A /* SLBaseInfo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62E92722C2DB3DAC82B36730E4B30F25 /* SLBaseInfo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7B05059D1CF7CA97B94868F3BAD6888 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		F05BF8218BCE26CC8F18D2553474E6C8 /* SLBaseInfo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8173037082036DCDBDE3F6AA3C9B1788 /* SLBaseInfo-dummy.m */; };
+		F56E912096CE9ECC3C42DAFCCD14630B /* SLNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = B43BD1CA27D96EF89CC5E8D38AD78A0C /* SLNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7C3DEB58ADC53531E0AD4DFE9BA3214 /* Pods-SLBaseInfo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEEDED10675724B5C19236A27C394E8 /* Pods-SLBaseInfo_Example-dummy.m */; };
 		FB3E36505560A7C33BBCC3E9E82EE831 /* Pods-SLBaseInfo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CD31DCD2C956E9CF90A2C1B9D78D82C /* Pods-SLBaseInfo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -38,42 +42,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01C2954DE87707BE5CE5133CD5B8B76D /* UIColor+Color.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Color.m"; path = "SLBaseInfo/Classes/Category/UIColor+Color.m"; sourceTree = "<group>"; };
 		04143B17EA8DB9132F919AED723EE3CB /* Pods-SLBaseInfo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SLBaseInfo_Tests.modulemap"; sourceTree = "<group>"; };
+		0888BCC6D73BC160AC4527723EEA8E61 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		099B142CE22360E9181893F6EDD2D15A /* Pods-SLBaseInfo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLBaseInfo_Example-frameworks.sh"; sourceTree = "<group>"; };
 		127AA339EE8A62B4EFE3F209BD6072B0 /* Pods-SLBaseInfo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SLBaseInfo_Example.modulemap"; sourceTree = "<group>"; };
 		1633C50ACC5FD8307E05D55B3A2CE442 /* Pods_SLBaseInfo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SLBaseInfo_Tests.framework; path = "Pods-SLBaseInfo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23AC9A7E4B56D1E3FA6F05C9D4361439 /* Pods-SLBaseInfo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLBaseInfo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2DDF36F47EE0164286E13384028BB4DC /* SLBaseInfo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SLBaseInfo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3777076948A479939B8356CE8584AF9C /* Pods-SLBaseInfo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLBaseInfo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		38DE5AAA7386726488D1B9BE4352DE63 /* Pods-SLBaseInfo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLBaseInfo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3C8E900B54D52281C9159D6D4276D5B7 /* SLBaseInfo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SLBaseInfo-prefix.pch"; sourceTree = "<group>"; };
 		3CD31DCD2C956E9CF90A2C1B9D78D82C /* Pods-SLBaseInfo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLBaseInfo_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4065BCCF973FA438D23FC67400654C40 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		415E12A2F77B2861B3AB10264702AD6F /* SLBaseInfo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SLBaseInfo.xcconfig; sourceTree = "<group>"; };
 		4BEEDED10675724B5C19236A27C394E8 /* Pods-SLBaseInfo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLBaseInfo_Example-dummy.m"; sourceTree = "<group>"; };
 		4C20A7692EB03CA7F08F5E856192E838 /* Pods-SLBaseInfo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLBaseInfo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4E8238D8E6ECE9625760A0BCA274D17B /* SLBaseInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SLBaseInfo.framework; path = SLBaseInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BD2FDAA073EF549666BF583516519B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5E9134B4D37370669F9B580322D7EB82 /* SLBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SLBaseViewController.m; sourceTree = "<group>"; };
 		5EAE5F93E8BD499A5E39853F7E24F136 /* Pods-SLBaseInfo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLBaseInfo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		62E92722C2DB3DAC82B36730E4B30F25 /* SLBaseInfo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SLBaseInfo-umbrella.h"; sourceTree = "<group>"; };
-		65C0247B1CD72010B7817D2E1F468A77 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		6760AFCFB5A53B98E0BD330A9C50EC04 /* SLBaseInfo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SLBaseInfo-prefix.pch"; sourceTree = "<group>"; };
 		6937376696CE4C364579A87B1D9A796D /* Pods_SLBaseInfo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SLBaseInfo_Example.framework; path = "Pods-SLBaseInfo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		89FBCBC82CD2AB023ACE133A8AD6C71C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8173037082036DCDBDE3F6AA3C9B1788 /* SLBaseInfo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SLBaseInfo-dummy.m"; sourceTree = "<group>"; };
+		85F3BB45CE42256800DB3293CC11A134 /* SLNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SLNavigationController.m; sourceTree = "<group>"; };
 		910FF07830D7FFCB73FBAE4C7D7432EA /* Pods-SLBaseInfo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLBaseInfo_Example-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93D85DC0CE8E1E6D3F972BB4F4EE6855 /* SLBaseInfo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SLBaseInfo-umbrella.h"; sourceTree = "<group>"; };
 		94B673B44EE795AD42165D5077B3383F /* Pods-SLBaseInfo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLBaseInfo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9B3D037A9B4C9AF513A1C72FE2FF29B8 /* SLBaseInfo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SLBaseInfo.modulemap; sourceTree = "<group>"; };
+		9CBBB39C708E39312C789BC083F987DE /* SLBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SLBaseViewController.h; sourceTree = "<group>"; };
 		A209DACCFE7A19129C87DD4E9C92E1EF /* Pods-SLBaseInfo_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLBaseInfo_Example-resources.sh"; sourceTree = "<group>"; };
-		B13BBFC36FE89142EF1B30CCCC6FD389 /* UIColor+Color.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Color.h"; path = "SLBaseInfo/Classes/Category/UIColor+Color.h"; sourceTree = "<group>"; };
+		A280720629C552FF9F661831BD9A250E /* SLBaseInfo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SLBaseInfo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A47DD6443420E8D88E69AA4261ACC364 /* UIColor+Color.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Color.m"; sourceTree = "<group>"; };
 		B399C1A14264979CC43608A82D2B8696 /* Pods-SLBaseInfo_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLBaseInfo_Tests-resources.sh"; sourceTree = "<group>"; };
-		B77D17CE02CEA20C120681E07AA35FF4 /* SLBaseInfo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SLBaseInfo-dummy.m"; sourceTree = "<group>"; };
+		B43BD1CA27D96EF89CC5E8D38AD78A0C /* SLNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SLNavigationController.h; sourceTree = "<group>"; };
 		BE862EC612181E9637BB70DEF783F105 /* Pods-SLBaseInfo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLBaseInfo_Tests-dummy.m"; sourceTree = "<group>"; };
+		C3573B51BD36BA19F3581E91399A1131 /* SLBaseInfo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SLBaseInfo.modulemap; sourceTree = "<group>"; };
 		CBF135C91AC0D157AE3EB85CF5897587 /* Pods-SLBaseInfo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLBaseInfo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E99BD548F935C536EE974AA9A76C4FD3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D6A23EFB9401773A1F1E201A72F8E226 /* SLBaseInfo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SLBaseInfo.xcconfig; sourceTree = "<group>"; };
 		ECA739D2F6C8686E8A9C1EA72698A540 /* Pods-SLBaseInfo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLBaseInfo_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F14879EE191697908EF29C58D61DF78A /* UIColor+Color.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+Color.h"; sourceTree = "<group>"; };
 		F9FA6C3F1BB9AEBC674426ECBC1CE382 /* Pods-SLBaseInfo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLBaseInfo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FD34CA3390552CE3F76D109D7FF14938 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FE99E20B2F5ED8A5B7E26DD216F17767 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,31 +115,47 @@
 		06E4443DAA30DDF8C734C540BF101496 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4B3DF6F9B2DDA3E8E13377FA08620201 /* SLBaseInfo */,
+				259A2B4A80E4D32E7C429B8D02E2AADF /* SLBaseInfo */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		399EE451BC1C3C84CAAE04FCA5CD6500 /* Pod */ = {
+		105450CB3629F131C1C4853E351A4F59 /* BaseVC */ = {
 			isa = PBXGroup;
 			children = (
-				E99BD548F935C536EE974AA9A76C4FD3 /* LICENSE */,
-				65C0247B1CD72010B7817D2E1F468A77 /* README.md */,
-				2DDF36F47EE0164286E13384028BB4DC /* SLBaseInfo.podspec */,
+				9CBBB39C708E39312C789BC083F987DE /* SLBaseViewController.h */,
+				5E9134B4D37370669F9B580322D7EB82 /* SLBaseViewController.m */,
+				B43BD1CA27D96EF89CC5E8D38AD78A0C /* SLNavigationController.h */,
+				85F3BB45CE42256800DB3293CC11A134 /* SLNavigationController.m */,
 			);
-			name = Pod;
+			name = BaseVC;
+			path = SLBaseInfo/Classes/BaseVC;
 			sourceTree = "<group>";
 		};
-		4B3DF6F9B2DDA3E8E13377FA08620201 /* SLBaseInfo */ = {
+		259A2B4A80E4D32E7C429B8D02E2AADF /* SLBaseInfo */ = {
 			isa = PBXGroup;
 			children = (
-				B13BBFC36FE89142EF1B30CCCC6FD389 /* UIColor+Color.h */,
-				01C2954DE87707BE5CE5133CD5B8B76D /* UIColor+Color.m */,
-				399EE451BC1C3C84CAAE04FCA5CD6500 /* Pod */,
-				845D13C01DA96C305DAF273A159AD00D /* Support Files */,
+				105450CB3629F131C1C4853E351A4F59 /* BaseVC */,
+				CE320CD29865573F0422AE1F12C0E3B5 /* Category */,
+				851C1306077784859AA14312550B56C5 /* Pod */,
+				3C77353A9EE17495FC24ECD63D2082D1 /* Support Files */,
 			);
 			name = SLBaseInfo;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		3C77353A9EE17495FC24ECD63D2082D1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE99E20B2F5ED8A5B7E26DD216F17767 /* Info.plist */,
+				C3573B51BD36BA19F3581E91399A1131 /* SLBaseInfo.modulemap */,
+				D6A23EFB9401773A1F1E201A72F8E226 /* SLBaseInfo.xcconfig */,
+				8173037082036DCDBDE3F6AA3C9B1788 /* SLBaseInfo-dummy.m */,
+				3C8E900B54D52281C9159D6D4276D5B7 /* SLBaseInfo-prefix.pch */,
+				93D85DC0CE8E1E6D3F972BB4F4EE6855 /* SLBaseInfo-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SLBaseInfo";
 			sourceTree = "<group>";
 		};
 		4FC53E201E830954D9C9C86271C651AF /* Targets Support Files */ = {
@@ -162,18 +186,14 @@
 			);
 			sourceTree = "<group>";
 		};
-		845D13C01DA96C305DAF273A159AD00D /* Support Files */ = {
+		851C1306077784859AA14312550B56C5 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				89FBCBC82CD2AB023ACE133A8AD6C71C /* Info.plist */,
-				9B3D037A9B4C9AF513A1C72FE2FF29B8 /* SLBaseInfo.modulemap */,
-				415E12A2F77B2861B3AB10264702AD6F /* SLBaseInfo.xcconfig */,
-				B77D17CE02CEA20C120681E07AA35FF4 /* SLBaseInfo-dummy.m */,
-				6760AFCFB5A53B98E0BD330A9C50EC04 /* SLBaseInfo-prefix.pch */,
-				62E92722C2DB3DAC82B36730E4B30F25 /* SLBaseInfo-umbrella.h */,
+				0888BCC6D73BC160AC4527723EEA8E61 /* LICENSE */,
+				FD34CA3390552CE3F76D109D7FF14938 /* README.md */,
+				A280720629C552FF9F661831BD9A250E /* SLBaseInfo.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SLBaseInfo";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		A290A77AB9FCDEF8AC29CA9216824C44 /* Pods-SLBaseInfo_Tests */ = {
@@ -212,6 +232,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		CE320CD29865573F0422AE1F12C0E3B5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F14879EE191697908EF29C58D61DF78A /* UIColor+Color.h */,
+				A47DD6443420E8D88E69AA4261ACC364 /* UIColor+Color.m */,
+			);
+			name = Category;
+			path = SLBaseInfo/Classes/Category;
+			sourceTree = "<group>";
+		};
 		DA519CD4C0210761B013F5F4E701CEA6 /* Pods-SLBaseInfo_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -233,12 +263,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5EDC07FC26DCC9F83C52A50B230B0FBE /* Headers */ = {
+		86F79ACD07D868A0E6E8E7C614EC0A16 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEBE761D71166482F2D9CD0E756B398A /* SLBaseInfo-umbrella.h in Headers */,
-				4BEB92E1EB6ABB9370CCDDB40DBEC5D8 /* UIColor+Color.h in Headers */,
+				3B4F59EC87828922E8432ECBF5005659 /* SLBaseInfo-umbrella.h in Headers */,
+				4384A2C8EF227537AC75117FE16055B3 /* SLBaseViewController.h in Headers */,
+				F56E912096CE9ECC3C42DAFCCD14630B /* SLNavigationController.h in Headers */,
+				8FBABA337D3011B0EC1D6917EB3C27D2 /* UIColor+Color.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,9 +315,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E72CA15F550E4FB1BEF9A4E35C05549E /* Build configuration list for PBXNativeTarget "SLBaseInfo" */;
 			buildPhases = (
-				95354742B7246C8B3F0E09DA11847C8A /* Sources */,
+				0CB913438D3F240D0E4267E5A9DCAE10 /* Sources */,
 				E50AB0B4E7A99325B7E9DDE73BEF8395 /* Frameworks */,
-				5EDC07FC26DCC9F83C52A50B230B0FBE /* Headers */,
+				86F79ACD07D868A0E6E8E7C614EC0A16 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -351,12 +383,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		95354742B7246C8B3F0E09DA11847C8A /* Sources */ = {
+		0CB913438D3F240D0E4267E5A9DCAE10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				168AA297EAFBE9C6FFFCE1B9DB921FB2 /* SLBaseInfo-dummy.m in Sources */,
-				C70E5B493784C5CF9A6918399D517F8D /* UIColor+Color.m in Sources */,
+				F05BF8218BCE26CC8F18D2553474E6C8 /* SLBaseInfo-dummy.m in Sources */,
+				38A69A78740AF45AE92F13F861810C41 /* SLBaseViewController.m in Sources */,
+				0DBB00B7085DB3CDDCD3D540150E8472 /* SLNavigationController.m in Sources */,
+				6EC9916A77292E6380D2809600516B0D /* UIColor+Color.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,7 +518,7 @@
 		};
 		96D4E1FB18C605FA69DF56C71072222F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 415E12A2F77B2861B3AB10264702AD6F /* SLBaseInfo.xcconfig */;
+			baseConfigurationReference = D6A23EFB9401773A1F1E201A72F8E226 /* SLBaseInfo.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -607,7 +641,7 @@
 		};
 		E239748C8BC614EFCE2643C2AD1524E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 415E12A2F77B2861B3AB10264702AD6F /* SLBaseInfo.xcconfig */;
+			baseConfigurationReference = D6A23EFB9401773A1F1E201A72F8E226 /* SLBaseInfo.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

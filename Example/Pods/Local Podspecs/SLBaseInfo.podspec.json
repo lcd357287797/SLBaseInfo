@@ -2,8 +2,8 @@
   "name": "SLBaseInfo",
   "version": "0.1.0",
   "summary": "工程的基础信息",
-  "description": "工程的基础信息",
-  "homepage": "https://github.com/陆承东/SLBaseInfo",
+  "description": "工程的基础信息1",
+  "homepage": "https://github.com/lcd357287797/SLBaseInfo",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "陆承东": "357287797@qq.com"
   },
   "source": {
-    "git": "https://github.com/陆承东/SLBaseInfo.git",
+    "git": "https://github.com/lcd357287797/SLBaseInfo.git",
     "tag": "0.1.0"
   },
   "platforms": {
