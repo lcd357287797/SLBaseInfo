@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SLBaseInfo_Example' do
+  pod 'SLBaseInfo', :path => '../'
+
+  target 'SLBaseInfo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

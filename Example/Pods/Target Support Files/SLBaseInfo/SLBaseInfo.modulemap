@@ -1,0 +1,6 @@
+framework module SLBaseInfo {
+  umbrella header "SLBaseInfo-umbrella.h"
+
+  export *
+  module * { export * }
+}
